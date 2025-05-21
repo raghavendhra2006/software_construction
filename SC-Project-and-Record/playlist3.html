@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/bg-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="logo">Music Hut</div>
+    <h1 class="playlist-title">Yuvan Shankar raja</h1>
+
+    <div class="songs-list">
+        <div class="song" data-src="songs/SongA.mp3">
+            <img src="images/songA.jpg" class="song-thumb">
+            <span>Song A</span>
+        </div>
+
+        <div class="song">
+            <img src="images/songA.jpg" class="song-thumb">
+            <span>Song B</span>
+        </div>
+
+        <div class="song">
+            <img src="images/songA.jpg" class="song-thumb">
+            <span>Song C</span>
+        </div>
+    </div>
+
+    <footer>
+        <audio id="audioPlayer" controls style="display: none;"></audio>
+    </footer>
+
+    <script src="playlist3.js"></script>
+</body>
+
+</html>

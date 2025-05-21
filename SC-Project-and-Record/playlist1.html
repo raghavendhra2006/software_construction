@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/bg-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="logo">Music Hut</div>
+    <h1 class="playlist-title">Anirudh Ravichandran</h1>
+
+    <div class="songs-list">
+        <div class="song" data-src="songs/Hukum.mp3">
+            <img src="images/hukum.jpg" alt="Hukum" class="song-thumb">
+            <span>Hukum (From Jailer)</span>
+        </div>
+
+        <div class="song">
+            <img src="images/hukum.jpg" class="song-thumb">
+            <span>Song 2</span>
+        </div>
+
+        <div class="song">
+            <img src="images/hukum.jpg" class="song-thumb">
+            <span>Song 3</span>
+        </div>
+    </div>
+    <footer>
+        <audio id="audioPlayer" controls style="display: none;"></audio>
+    </footer>
+    <script src="playlist1.js"></script>
+</body>
+
+</html>
